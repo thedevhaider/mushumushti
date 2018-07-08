@@ -1,0 +1,138 @@
+{% extends 'layout.htm' %}
+
+{% block title %}
+    ::Skills::
+{% endblock %}
+
+
+{% block main %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
+  <a class="navbar-brand" href="{{url_for('index')}}" id="brand">Mustaque Ahmed
+  <span id="brand-tag" class="lead">Developer</span> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <ul class="navbar-nav my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('index')}}" id="header-link">Home</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="">
+    <br><br><br>
+</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-12">
+      <div class="hide-out">
+        <center><h1 class="text-center skills">Skills</h1> </center>
+      </div>
+    </div>
+
+      <div class="col-3" id="py">
+        <center>
+          <i class="devicon-python-plain colored"></i>
+          <h4>PYTHON</h4>
+        </center>
+      <br><br>
+      </div>
+
+      <div class="col-3" id="php">
+        <center>
+          <i class="devicon-php-plain colored"></i>
+          <h4>PHP</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="codeigniter">
+        <center>
+          <i class="devicon-codeigniter-plain colored"></i>
+          <h4>CODEIGNITER</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="java">
+        <center>
+          <i class="devicon-java-plain colored"></i>
+          <h4>JAVA</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="mysql">
+        <center>
+          <i class="devicon-mysql-plain colored"></i>
+          <h4>MySQL</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="mongodb">
+        <center>
+          <i class="devicon-mongodb-plain colored"></i>
+          <h4>MONGODB</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="wordpress">
+        <center>
+          <i class="devicon-wordpress-plain colored"></i>
+          <h4>WORDPRESS</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="cpp">
+        <center>
+          <i class="devicon-cplusplus-line colored"></i>
+          <h4>C++</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="javascript">
+        <center>
+          <i class="devicon-javascript-plain colored"></i>
+          <h4>JAVASCRIPT</h4>
+        </center>
+        <br><br>
+      </div>
+
+      <div class="col-3" id="bootstrap">
+        <center>
+          <i class="devicon-bootstrap-plain colored"></i>
+          <h4>BOOTSTRAP</h4>
+        </center>
+      </div>
+
+      <div class="col-3" id="linux">
+        <center>
+          <i class="devicon-linux-plain colored"></i>
+          <h4>LINUX</h4>
+        </center>
+      </div>
+
+      <div class="col-3" id="vim">
+        <center>
+          <i class="devicon-vim-plain colored"></i>
+          <h4>VIM</h4>
+        </center>
+      </div>
+
+  </div>
+
+</div>
+
+{%endblock%}

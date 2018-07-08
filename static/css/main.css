@@ -1,0 +1,140 @@
+body {
+    letter-spacing: 1px;
+}
+
+#header {
+  padding-top: 20px;
+  background: #fff !important;
+}
+
+.next-hero {
+  margin-top: 20px;
+  display: none;
+}
+
+#brand {
+  color: #000;
+  font-size: 36px;
+  font-weight: 300;
+  padding-left: 60px !important;
+}
+
+#brand-tag {
+  color: #bbb;
+  font-size: 20px;
+}
+
+#header-link {
+  font-size: 30px;
+  padding-right: 60px !important;
+}
+
+#hero {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+#hero-tagline {
+  font-size: 46px;
+}
+
+.jumbotron {
+  background: #fff !important;
+}
+
+.typed-js {
+    margin-left: 50px;
+}
+
+#mail-link {
+  text-decoration: underline;
+}
+
+#git * {
+  color: #000;
+  text-decoration: none;
+}
+
+#git a span {
+  font-size: 32px;
+}
+
+#fb * {
+  color: #4267b2;
+  text-decoration: none;
+}
+
+#fb a span {
+  font-size: 32px;
+}
+
+#twitter * {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+#twitter a span {
+  font-size: 32px;
+}
+
+#linkedin * {
+  color: #0077B5;
+  text-decoration: none;
+}
+
+#linkedin a span {
+  font-size: 32px;
+}
+
+.skills {
+  font-size: 178px;
+}
+
+
+#py i{
+  font-size: 150px;
+}
+
+#php i {
+  font-size: 150px;
+}
+
+#codeigniter i {
+  font-size: 150px;
+}
+
+#java i {
+  font-size: 150px;
+}
+
+#mysql i {
+  font-size: 150px;
+}
+
+#mongodb i {
+  font-size: 150px;
+}
+
+#wordpress i {
+  font-size: 150px;
+}
+
+#cpp i {
+  font-size: 150px;
+}
+
+#javascript i {
+  font-size: 150px;
+}
+
+#bootstrap i {
+  font-size: 150px;
+}
+
+#linux i {
+  font-size: 150px;
+}
+
+#vim i {
+  font-size: 150px;
+}

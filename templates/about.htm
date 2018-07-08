@@ -1,0 +1,93 @@
+{% extends 'layout.htm' %}
+
+{% block title %}
+    ::About::
+{% endblock %}
+
+
+{% block main %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
+  <a class="navbar-brand" href="{{url_for('index')}}" id="brand">Mustaque Ahmed
+  <span id="brand-tag" class="lead">Developer</span> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <ul class="navbar-nav my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('skills')}}" id="header-link">Skills</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="">
+    <br><br><br>
+</div>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col col-3">
+      <div class="social-links">
+          <h2 id="social-links-head">Social Links</h2><hr>
+          {% if git %}
+          <div id="git">
+            <a href="{{git}}">
+              <i class="fa fa-github-alt fa-5x" aria-hidden="true"></i>
+              <span>Github</span>
+            </a>
+          </div>
+          {% endif %}
+          <br>
+          {% if fb %}
+          <div id="fb">
+            <a href="{{fb}}">
+              <i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i>
+              <span>Facebook</span>
+            </a>
+          </div>
+          {% endif %}
+          <br>
+          {% if twitter %}
+          <div id="twitter">
+            <a href="{{twitter}}">
+              <i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+              <span>Twitter</span>
+            </a>
+          </div>
+          {% endif %}
+          <br>
+          {% if linkedin %}
+          <div id="linkedin">
+            <a href="{{linkedin}}">
+              <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+          {% endif %}
+
+      </div>
+    </div>
+
+    <div class="col col-7 offset-md-2">
+      <div id="aboutme-head">
+        <h2>About Me!</h2><hr>
+      </div>
+
+      <div id="aboutme-body">
+        <h4>I'm a developer with extensive experience in building high quality sites and applications. My experiences range from building responsive sites that work well cross-browser to building scalable sites for the companies. I like working on projects with a team that cares about creating beautiful and usable interfaces. It's important to me to build long term relationships with clients, so I'm primarily looking for long term projects. I'm flexible with my working hours and am happy to work closely with any existing freelancers you work with. I look forward to hearing from you!</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{%endblock%}

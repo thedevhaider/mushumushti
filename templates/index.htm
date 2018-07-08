@@ -1,0 +1,52 @@
+{% extends 'layout.htm' %}
+
+{% block title %}
+    ::PortFolio::
+{% endblock %}
+
+{% block main %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
+  <a class="navbar-brand" href="{{url_for('index')}}" id="brand">Mustaque Ahmed
+  <span id="brand-tag" class="lead">Developer</span> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <ul class="navbar-nav my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('about')}}" id="header-link">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="jumbotron">
+
+    <div class="">
+      <br><br><br><br>
+    </div>
+
+    <div class="typed-js">
+      <span id="hero">
+      </span>
+      <br>
+      <span id="hero-tagline">
+      </span>
+
+      <div class="next-hero">
+        <h3>I design, build, operate & sometimes rescue full-stack web applications.</h3>
+        <h4>Have a project you'd like to discuss?</h4>
+        <h4>Let's Chat <a href="mailto:amustaque97@gmail.com" id="mail-link">amustaque97@gmail.com</a> </h4>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
