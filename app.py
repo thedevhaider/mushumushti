@@ -8,7 +8,7 @@ from mongokit import Document, Connection
 from datetime import datetime
 
 # remote database url
-uri = 'mongodb://amustaque97:Vostro&1540@ds129541.mlab.com:29541/portfolio'
+uri = 'mongodb://amustaque97:<password>@ds129541.mlab.com:29541/portfolio'
 
 # create Connection
 connection = Connection(host=uri,
